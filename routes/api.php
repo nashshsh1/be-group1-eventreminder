@@ -6,4 +6,4 @@ use App\Http\Controllers\UserController;
 
 
 Route::post('/login', [AuthController::class, 'login']);
-Route::get('/users', [UserController::class, 'user']);
+Route::get('/users', [UserController::class, 'index']);
